@@ -1,0 +1,52 @@
+/*** SKIP ***/
+#skip-to-content {text-align: center;}
+#skip-to-content a {padding:20px 0; display:block; position: absolute; left:-999em;}
+#skip-to-content a:focus {position:relative; left:0; outline: none;}
+
+/*** CONTAINERS ***/
+header {width:100%; max-width: 1000px; margin:0 auto;}
+main {width:100%; max-width: 1000px; margin:0 auto}
+
+/*** LOGO ***/
+header h1 {width:305px; height:95px; background-image: url("https://www.tdsb.on.ca/images/TDSB/TDSB_logo.jpg"); float:left;  margin-top:10px; }
+header h1 span {position: absolute; left:-999em}
+
+/*** SEARCH & TRANSLATE ***/
+header fieldset {float:right; clear:right; margin-top:20px}
+
+
+/*** QUICK-LINKS ***/
+#quick-links {float:right; text-align:right; margin-top:10px; font-size:0}
+#quick-links li {display: inline; line-height: 1.5rem; border-right: 1px solid #C6C6C6;  font-size:16px }
+#quick-links li.last-item {border:none;}
+#quick-links a {padding:0 10px; text-decoration: none; color:#43347B;}
+
+/*** SITE NAV ***/
+#site-nav {float:left; clear:both; background-color:#fedd9f; background-image:linear-gradient(#feeecd,#fedd9f); text-align: center; width:100%; border-top: 1px solid #C6C6C6; border-bottom: 1px solid #C6C6C6; margin:10px 0; font-size:0}
+#site-nav li {display:inline-block; border-left: 1px solid #C6C6C6; font-size: 16px;}
+#site-nav li:last-child {border-right: 1px solid #C6C6C6;}
+#site-nav li:nth-child(1), #site-nav li:nth-child(1) a:hover {background-color: #e9e9e9; background-image: none;}
+#site-nav li:nth-child(2), #site-nav li:nth-child(2) a:hover {background-color: #f3f69b; background-image: none;}
+#site-nav li:nth-child(3), #site-nav li:nth-child(3) a:hover {background-color: #89a480; background-image: none; color:#FFF}
+#site-nav li:nth-child(4), #site-nav li:nth-child(4) a:hover {background-color: #dc8f49; background-image: none;}
+#site-nav li:nth-child(5), #site-nav li:nth-child(5) a:hover {background-color: #5678ae; background-image: none; color:#FFF}
+#site-nav li:nth-child(6), #site-nav li:nth-child(6) a:hover {background-color: #f6e8cd; background-image: none;}
+#site-nav li:nth-child(7), #site-nav li:nth-child(7) a:hover {background-color: #d54343; background-image: none; color:#FFF}
+#site-nav a {padding:7px 20px; margin-bottom:5px; text-decoration: none; color:#43347B; display: block; background-color: #ebf5ea; background-image: linear-gradient(#ebf5ea, #ffffff); font-size:1.4em}
+
+
+
+/*** MAIN ***/
+
+
+#carosel {width:690px; height:200px; margin-right:15px; margin-bottom: 10px; background-color: slateblue; float:left; clear:both}
+#calendar {width:295px; height:200px; margin-bottom: 10px; background-color: cornflowerblue; float:left}
+#left {width:320px; height:200px; margin-right:20px; margin-bottom: 10px; background-color: coral; float:left}
+#center {width:320px; height:200px; margin-right:20px; margin-bottom: 10px; background-color: darkkhaki; float:left}
+#right {width:320px; height:200px; margin-bottom: 10px; background-color: greenyellow; float:left}
+#footer {width:100%; height:100px; background-color: teal; float:left; clear:all}
+
+
+@media screen and (max-width: 600px) {
+  #carosel, #calendar, #left, #center, #right, #footer {width:100%}
+}
