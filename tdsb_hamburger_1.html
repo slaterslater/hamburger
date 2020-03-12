@@ -9,15 +9,16 @@
 
 </head>
 <body>
-  <nav id="skip-to-content"><a tabindex="0" href="#main">Skip to Content</a></nav>  
+  <nav id="skip-to-content"><a tabindex="1" href="#main">Skip to Content</a></nav>  
   <header>
     <h1><span>Toronto District School Board</span></h1>
-    <nav id="quick-links">
+    <nav id="quick-links" tabindex="2">
+      <label for="quick-links-menu-btn">Quick-links</label>
+      <input type="checkbox" id="quick-links-menu-btn" />
       <ul>
-        <li><a href="#">Search</a></li>
-        <li><a href="#">Find Your School</a></li>
-        <li><a href="#">New to Canada</a></li>
-        <li><a href="#">Policies</a></li>
+        <li><a href="#1">Find Your School</a></li>
+        <li><a href="#2">New to Canada</a></li>
+        <li><a href="#3">Policies</a></li>
         <li class="last-item"><a href="#">Media</a></li>
         <br />
         <li><a href="#">About Us</a></li>
@@ -32,8 +33,7 @@
       <button id="search-btn">Search</button>
       <button id="google-translate">Translate</button>
     </fieldset>
-     
-  </header>
+    </header>
   <nav>
     <ul id="site-nav">
       <li><a href="#"><span>Home</span></a></li>
